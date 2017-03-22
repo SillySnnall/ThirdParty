@@ -4,9 +4,15 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <Button
-        android:id="@+id/umeng"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="UmengActivity"/>
+        android:gravity="center"
+        android:text="UmengActivity"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="share"/>
 </LinearLayout>
